@@ -1,0 +1,19 @@
+name: netflix-eda
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-learn
+  - ydata-profiling
+  - jupyter
+  - pip
+  - pip:
+      - streamlit
+      - dvc
