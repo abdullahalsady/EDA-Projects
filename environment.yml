@@ -1,19 +1,20 @@
-name: netflix-eda
+name: eda_projects             # Name of the environment
 channels:
-  - defaults
-  - conda-forge
-
+  - defaults               # Default Conda channel
+  - conda-forge            # Optional: additional channel for some packages
 dependencies:
-  - python=3.12
+  - python=3.11            # Python version
   - pandas
   - numpy
   - matplotlib
   - seaborn
   - plotly
-  - scikit-learn
-  - ydata-profiling
   - jupyter
-  - pip
+  - notebook
+  - ipykernel
+  - scikit-learn
+  - pyyaml
+  - pip                     # pip is required if you want to install pip-only packages
   - pip:
-      - streamlit
-      - dvc
+      - ydata-profiling     # Install via pip because Pandas Profiling may not be on Conda
+      - dvc                 # DVC latest version via pip

@@ -1,0 +1,41 @@
+# ===============================
+# Core Data Analysis Libraries
+# ===============================
+pandas                  # Data manipulation, cleaning, and analysis
+numpy                   # Numerical operations and arrays
+
+# ===============================
+# Visualization Libraries
+# ===============================
+matplotlib              # Basic plotting library for static plots
+seaborn                 # Advanced statistical plotting, built on matplotlib
+plotly                  # Interactive and web-ready visualizations
+
+# ===============================
+# Automated EDA
+# ===============================
+ydata-profiling         # Auto-generate exploratory data analysis reports (formerly pandas-profiling)
+
+# ===============================
+# Data Versioning
+# ===============================
+dvc                     # Tracks datasets, pipelines, and experiment reproducibility
+
+# ===============================
+# Jupyter Notebook Environment
+# ===============================
+jupyter                 # Interactive notebooks environment
+notebook                # Jupyter Notebook server
+ipykernel               # Enables running Python in Jupyter notebooks
+
+# ===============================
+# Configuration / Utilities
+# ===============================
+PyYAML                  # Read/write YAML files (for params.yaml and environment config)
+scikit-learn            # Optional: basic machine learning utilities (e.g., data preprocessing)
+
+# ===============================
+# Notes:
+# - Versions are not pinned; latest versions will be installed.
+# - Use `pip install -r requirements.txt` to set up the environment.
+# - For Conda users, you can also use a matching `environment.yml` file.
