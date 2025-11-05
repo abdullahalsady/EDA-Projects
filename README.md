@@ -26,6 +26,7 @@ These projects aim to:
 | **🤖 Automated EDA** | ![Pandas Profiling](https://img.shields.io/badge/Pandas%20Profiling-0A0A0A?logo=pandas&logoColor=white) | Auto-generate summary EDA reports |
 | **⚙️ Environment Management** | ![Conda](https://img.shields.io/badge/Conda-44A833?logo=anaconda&logoColor=white) | Handles dependencies and reproducible environments |
 | **🧩 Data Versioning** | ![DVC](https://img.shields.io/badge/DVC-945DD6?logo=dvc&logoColor=white) | Tracks datasets and pipeline versions |
+| **💻 Notebook Sharing** | ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white) | Open `.ipynb` notebooks publicly in the cloud |
 | **🗂️ Configuration** | ![YAML](https://img.shields.io/badge/YAML-000000?logo=yaml&logoColor=white) | Used for environment setup and DVC pipelines |
 | **🔧 Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) | Source code and version management |
 
@@ -36,7 +37,7 @@ These projects aim to:
 ```bash
 EDA-projects/
 │
-├── 📁 project_1/
+├── 📁 netflix-eda/
 │   ├── data/                # Raw and processed datasets
 │   ├── notebooks/           # Jupyter notebooks for EDA
 │   ├── visuals/             # Saved plots and charts
@@ -44,7 +45,7 @@ EDA-projects/
 │   ├── params.yaml          # Pipeline configuration parameters
 │   └── README.md
 │
-├── 📁 project_2/
+├── 📁 youtube-eda/
 │   ├── data/
 │   ├── notebooks/
 │   ├── visuals/
@@ -52,7 +53,7 @@ EDA-projects/
 │   ├── params.yaml
 │   └── README.md
 │
-├── 📁 project_3/
+├── 📁 zomato-eda/
 │   ├── data/
 │   ├── notebooks/
 │   ├── visuals/
